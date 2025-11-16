@@ -1,0 +1,563 @@
+
+
+      body{
+     background-color:rgb(221, 172, 126);
+
+     }
+
+
+      .header-parent-div{
+        position:relative;
+      }
+
+
+      .header-div2{
+        position:absolute;
+        left:140px;
+        top:30px;
+        display:flex;
+        flex-direction:row;
+        width:900px;
+        justify-content: space-evenly;
+        flex:1;
+
+      }
+
+      .BornITW-image{
+        width: 1265px;
+        height:628px;
+        object-fit: cover;
+        margin-top:-10px;
+        margin-left:-10px;
+    
+      }
+
+
+      .listen-button, .shop-button,
+       .music-button, .tour-button, 
+       .follow-button{
+        background-color:rgba(0, 0, 0, 0);
+        color:white;
+        border: none;
+        font-family:Open Sans;
+        font-size:20px;
+        cursor:pointer;
+      }
+
+
+      .BITW-parent-div{
+      position: absolute;
+      bottom:10px;
+      left:450px;
+      display: flex;
+      flex-direction: column;
+      
+      
+      }
+
+      .name-div{
+        color: white;
+        font-family: Times New Roman;
+        font-size:75px;
+        font-weight:bold;
+        margin-left:50px;
+  
+
+      }
+
+      .albumname-div{
+        color:white;
+        font-family:Times New Roman;
+        font-size:50px;
+        font-weight:bold;
+        margin-left:-65px;
+        margin-top:-10px;
+      }
+
+      
+      .outnow-div{
+        color:white;
+        font-family:Times New Roman;
+        font-size:35px;
+        margin-left:70px;
+      }
+
+
+      
+      .stream-div{
+        margin-left:95px;
+      }
+      
+
+      .stream-button{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border:solid rgb(0, 0, 0);
+        font-size:20px;
+        font-family:Times New Roman;
+        border-radius:25px;
+        padding:3px 8px 3px 8px;
+        transition:0.15 opacity;
+
+
+      }
+
+      .stream-button:active{
+        border:solid white;
+        background-color:white;
+        color: black;
+        opacity:1;
+        cursor: pointer;
+
+      }
+      .stream-button:hover{
+        cursor:pointer;
+      }
+
+
+      /*this is where the Merch css starts*/
+
+      .merch-title-div-1{
+        display:flex;
+        justify-content: center;
+        height:120px;
+        align-items: center;
+        margin-top: 190px;
+        font-size:80px;
+        font-family:Open Sans;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+
+      
+      }
+      
+      
+
+
+      .merch-link{
+        font-size:80px;
+        font-family:Open Sans;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+
+      }
+
+
+
+      .merch-parent-div{
+        display:inline-block;
+        border:solid;
+        height:710px;
+        width:1240px;
+        position: relative;
+        
+      }
+      
+      
+      .merch-image-div{
+      margin:50px 15px 50px 15px;
+      
+
+      }
+      
+      
+      .merch-image{
+        width:1200px ;
+        height:600px;
+        object-fit: cover;
+      }
+
+      .buymerch-div{
+        display: block;
+        position: absolute;
+        bottom:20px;
+        left:580px;
+
+
+      }
+
+
+      .buy-button{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border:solid rgb(0, 0, 0);
+        font-size:20px;
+        font-family:Times New Roman;
+        border:1px 1px 1px 1px;
+        padding:3px 8px 3px 8px;
+        transition:0.15 opacity;
+      }
+
+      .buy-button:active{
+        border:solid rgb(255, 255, 255);
+        background-color:rgb(255, 255, 255);
+        opacity:1;
+        cursor: pointer;
+        color:black;
+
+      }
+
+      .buy-button:hover{
+        cursor:pointer;
+        background-color:rgb(255, 255, 255);
+        border: solid rgb(255, 255, 255);
+        color:black;
+        
+
+        
+      }
+
+      /*Tour dates CSS start here*/
+
+      
+      .Tour-div{
+        display:flex;
+        justify-content: center;
+        height:120px;
+        align-items: center;
+        margin-top:200px;
+        font-size:80px;
+        font-family:Open Sans;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        }
+       
+
+
+  .tickets-parent-div{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        position: relative;
+    
+      }
+
+
+      
+
+
+
+      .date-div1{
+        position:absolute;
+        top:310px;
+        left:172px;
+      
+      }
+
+
+
+      .date-info1{
+        margin-bottom:-10px;
+      }
+
+
+      .ticket-div1{
+        background-color:black;
+        margin: 10px 10px 10px 10px;
+        border-radius:20px;
+        font-size:18px;
+        padding:20px 10px 20px 10px;
+        width:900px ;
+        height:40px ;
+
+      }
+
+      .ticket-div2{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        color:white;
+        font-family:Arial;
+        margin-left:10px;
+        
+      }
+
+
+
+
+      .location-div{
+        margin-top:-5px;
+        margin-left:10px;
+      }
+
+      .location{
+        font-family:Arial;
+        font-size:9px;
+        color:white;
+      }
+
+      .ticket-button{
+        font-family:Arial;
+        font-size: 15px;
+        font-weight:bold;
+        background-color:rgba(194, 186, 174, 0.25);
+        color:rgb(194, 186, 174);
+        border-radius:10px;
+        padding:10px 10px 10px 10px;
+        border:none;
+        cursor: pointer;
+
+      }
+
+      .ticket-button:active{
+        background-color:rgba(194, 186, 174, 0.543);
+        border:solid rgb(194, 186,174);
+
+      }
+
+
+      /* music videos*/
+
+       .music-title-div{
+        font-size:80px;
+        font-family:Open Sans;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        margin-top:200px;
+        margin-bottom:-90px;
+        
+
+       }
+
+
+      .albumparent-grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        row-gap:100px;
+        column-gap:150px;
+        margin-top:200px;
+        
+      }
+
+      .album-images{
+        width:400px ;
+        height:400px;
+        object-fit: cover;
+      }
+
+      .cover-gridinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .play-button{
+        font-size:13px;
+        font-family:arial;
+        background-color:black;
+        border:none ;
+        color:white;
+        padding: 15px 15px 15px 15px;
+        border-radius:15px;
+        cursor: pointer;
+        transition:opacity, 0.15s;
+
+      }
+
+
+      .play-button:hover{
+        font-size:13px;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 15px 15px 15px 15px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+
+      .play-button:active{
+        font-size:13px;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 20px 20px 20px 20px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+      .cover-names{
+        font-size:20px;
+        font-family:Arial;
+
+      }
+
+      /*video grid*/
+
+
+      .video-title{
+        font-size:80px;
+        font-family:Open Sans;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        margin-top:200px;
+        margin-bottom:-90px;
+
+      }
+
+      .video-grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        row-gap:100px;
+        column-gap:100px;
+        margin-top:150px;
+
+      }
+
+
+
+      /* music videos start here*/
+
+      .music-videos-div{
+        margin-top:50px;
+      }
+
+
+   .music-videos-button{
+        font-size:15px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:black;
+        border:none ;
+        color:white;
+        padding: 20px 20px 20px 20px;
+        border-radius:15px;
+        cursor: pointer;
+        transition:opacity, 0.15s;
+
+      }
+
+
+      .music-videos-button:hover{
+        font-size:15px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 20px 20px 20px 20px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+
+      .music-videos-button:active{
+        font-size:13px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 20px 20px 20px 20px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+
+      /*following section start here*/
+      
+
+      .following-section{
+        margin-top:100px;
+        align-items: center;
+  
+
+      
+
+
+      }
+
+      .listing-bar{
+        width:380px;
+        border-color:rgb(221, 172, 126); 
+        background-color:rgb(221, 172, 126); 
+        border: none ;
+        border-bottom: white ;
+        border-radius: 15px ;
+        padding-left:10px ;
+        padding-right:10px;
+        padding-top:8px ;
+        padding-bottom: 8px;
+
+
+      }
+
+      .listing-bar::placeholder{
+        background-color:rgb(221, 172, 126);
+        color:black;
+    
+      
+
+      }
+
+      .listing-bar-div{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+      }
+
+
+
+      
+   .join-button{
+        font-size:15px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:black;
+        border:none ;
+        color:white;
+        padding: 10px 30px 10px 30px;
+        border-radius:15px;
+        cursor: pointer;
+        transition:opacity, 0.15s;
+
+      }
+
+
+      .join-button:hover{
+        font-size:15px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 10px 30px 10px 30px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+
+      .join-button:active{
+        font-size:13px;
+        font-weight:bold;
+        font-family:arial;
+        background-color:rgba(28, 28, 28, 0.918);
+        border:none ;
+        color:white;
+        padding: 10px 30px 10px 30px;
+        border-radius:15px;
+        cursor: pointer;
+
+      }
+
+      .rights-div{
+        display:flex;
+        justify-content: center;
+
+
+      }
+
+      .rights-info{
+        width:800px;
+
+      }
+
+
+  
